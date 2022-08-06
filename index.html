@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script async src="script.js"></script>
+        <title>Pokemon World</title>
+    </head>
+    <body>
+        <div class="main">
+            <h1 class="text">Pokemon World</h1>
+            <h2 class="text">By Laura Parker</h2>
+            
+            <form>
+                <label class="searchText">Search Pokemon Species Here:</label>
+                <input type="text"  name="search" id="search" placeholder="Enter Pokemon Species">
+                <input onclick="getPokemonResults()" class="button" type="button" value="SEARCH">
+            </form>
+        </div>
+            <br>
+        <div id="search"></div>
+            <br>
+        <div id="container">
+            <div class="card" style="background-color: white; padding: 10px; border-radius: 5px;">
+                <img src="https://i.insider.com/57910997dd0895a56e8b456d?width=700&format=jpeg&auto=webp" alt="Bulbasaur" style="height: 350px; width: auto">
+            <h3 style="color: black;">Bulbasaur</h3>
+            <p style="width: 300px;">
+                "Bulbasaur can be seen napping in bright sunlight.  There is a seed on its back.  By soaking up the sun's rays, the seed grows progressively larger."</p>
+            </div>
+            
+            <div class="card" style="background-color: white; padding: 10px; border-radius: 5px;">
+            <img src="https://i.insider.com/57910997dd0895a56e8b456e?width=700&format=jpeg&auto=webp" alt="Ivysaur"
+            style="height: 350px; width: auto">
+            <h3 style="color: black;">Ivysaur</h3>
+            <p style="width: 300px;">
+                "There is a bud on this Pokemon's back.  To support its weight, Ivysaur's legs and trunk grow thick and strong.  If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon."</p>
+            </div>
+
+            
+            <div class="card" style="background-color: white; padding: 10px;">
+                <img src="https://i.insider.com/57910997dd0895a56e8b456f?width=700&format=jpeg&auto=webp" alt="Venusaur" style="height: 350px; width: auto"></img>
+                <h3 style="color: black;">Venusaur</h3>
+                <p style="width: 300px">
+                    "There is a large flower on Venusaur's back.  The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight.  The flower's aroma soothes the emotions of people."
+                </p>               
+            </div>
+            
+            <div class="card" style="background-color: white; padding: 10px;">
+                <img src="https://i.insider.com/57910997dd0895a56e8b4570?width=700&format=jpeg&auto=webp" alt="Charmander" style="height: 350px; width: auto"><img>
+            <h3 style="color:black;">Charmander</h3>
+            <p style="width: 300px">
+                "The flame that burns at the tip of its tail is an indication of its emotions.  The flame wavers when Charmander is enjoying itself.  If the Pokemon becomes enraged, the flame burns fiercely."
+            </p>
+        </div>
+            
+        <div class="card" style="background-color: white; padding: 10px;">
+            <img src="https://i.insider.com/57910997dd0895a56e8b4571?width=700&format=jpeg&auto=webp" alt="Charmeleon" style="height:350px; width: auto;"><img>
+            <h3 style="color:black;">Charmeleon</h3>
+            <p style="width: 300px">
+            "Charmeleon mercilessly destroys its foes using its sharp claws.  If it encounters a strong foe, it turns aggressive.  In this excited state, the flame at the tip of its tail flares with a bluish white color."
+            </p>
+        </div>
+
+        <div class="card" style="background-color: white; padding: 10px;">
+            <img src="https://i.insider.com/57910997dd0895a56e8b45a9?width=700&format=jpeg&auto=webp" alt="Poliwhirl"
+                style="height:350px; width: auto;"><img>
+            <h3 style="color:black;">Poliwhirl</h3>
+            <p style="width: 300px">
+                "The surface of Poliwhirl's body is always wet and slick with a slimy fluid.  Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle."
+            </p>
+        </div>
+    </div>
+</body>
+</html>
